@@ -20,7 +20,7 @@ def input_feature():
   c1,c2,c3=st.columns([1,1,1])
   with c1:
     ind=st.radio('Industrial Risk',('High','Medium','Low'))
-    mgmt=st.radio('Managaement Risk',('High','Medium','Low'))
+    mgmt=st.radio('Management Risk',('High','Medium','Low'))
   with c2:
     fin=st.radio('Financial Flexibility',('High','Medium','Low'))
     cred=st.radio('Credibility',('High','Medium','Low'))
