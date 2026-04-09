@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import sklearn
 import pandas as pd
 
 # Loading all pickle files
